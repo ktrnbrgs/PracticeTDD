@@ -1,4 +1,6 @@
 package main.java.tennisplayer;
 
-public class TennisGame {
+public abstract class TennisGame {
+    abstract void wonPoint(String player);
+    abstract String getScore();
 }
