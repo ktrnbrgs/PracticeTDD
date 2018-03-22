@@ -13,7 +13,7 @@ public class TestKataPokerHand {
     @Test
     public void havePairCard(){
         //List<String> cardExpected = Arrays.asList("2H", "2H");
-        List<String> cardTest = Arrays.asList("2H", "1H", "3D", "5S", "9C");
+        List<String> cardTest = Arrays.asList("2H", "2H", "3D", "5S", "9C");
         assertEquals(true, pokerhand.pairCard(cardTest));
     }
 
