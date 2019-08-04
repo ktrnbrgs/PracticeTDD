@@ -20,7 +20,8 @@ public class TestKarateChop {
 
     @Test
     public void searchValuesIfInTheTopOrBottomOfArray(){
-        
+        int values [] = {1, 2, 3, 4, 5};
+        assertEquals(-1, search.chopValues(9, values));
     }
 
 
